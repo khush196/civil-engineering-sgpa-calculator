@@ -1,0 +1,166 @@
+:root {
+    --primary: #2d3436;
+    --secondary: #636e72;
+    --accent: #0984e3;
+    --background: #a2a4ac;
+    --surface: #ffffff;
+    --text: #2d3436;
+    --error: #d63031;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: var(--surface);
+    width: 100%;
+    padding: 1.5rem 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: calc(100vh - 5rem);
+}
+
+.container {
+    background-color: var(--surface);
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.container #Khush{
+    text-align: center;
+    color: var(--background);
+    text-decoration: underline;
+}
+
+.total-credits {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 1rem;
+}
+
+.subject-inputs label {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.subject-inputs select {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid #dfe6e9;
+    border-radius: 6px;
+    background-color: var(--surface);
+    transition: all 0.2s ease;
+    color: var(--text);
+}
+
+.subject-inputs select:hover {
+    border-color: var(--accent);
+}
+
+.subject-inputs select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(9, 132, 227, 0.1);
+}
+
+.calculate-button {
+    width: 100%;
+    padding: 0.875rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #f5f0f0;
+    background-color: #285e6b;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.calculate-button:hover {
+    background-color: #0e2b32;
+}
+
+.result{
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    text-align: center;
+
+}
+/* .result.Niharika {
+    font-size: 5rem;
+} */
+
+.grade-info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.grade-info h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.grade-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 0.75rem;
+}
+
+.grade-item {
+    font-size: 0.75rem;
+    color: var(--secondary);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+}
