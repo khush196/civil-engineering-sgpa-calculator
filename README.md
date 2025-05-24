@@ -81,4 +81,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Live Demo
 
-Visit [Civil Engineering SGPA Calculator](https://YOUR-USERNAME.github.io/civil-engineering-sgpa-calculator)
+Visit [Civil Engineering SGPA Calculator](https://khush196.github.io/civil-engineering-sgpa-calculator/)
