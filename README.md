@@ -77,8 +77,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Author
 
-- [@Khush196](https://github.com/YOUR-USERNAME)
-
+- [@Khush196](https://github.com/khush196)
 ## Live Demo
 
 Visit [Civil Engineering SGPA Calculator](https://khush196.github.io/civil-engineering-sgpa-calculator/)
